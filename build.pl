@@ -1,5 +1,59 @@
 			default:
 			case 1:
+				SetSize(9, 5, 8);
+				defaultStart = new Vector3(1, 0, 1);
+				Add(0, new string[] {
+					"   XXX   ",
+					"BX      B",
+					"X   XX   ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+				});
+				Add(1, new string[] {
+					" X  XX   ",
+					" X       ",
+					"     XX X",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+				});
+				Add(2, new string[] {
+					" X      X",
+					"X       X",
+					"       XX",
+					"         ",
+					"        X",
+					"         ",
+					"         ",
+					"         ",
+				});
+				Add(3, new string[] {
+					"   X BXXX",
+					"         ",
+					"         ",
+					"         ",
+					"        X",
+					"         ",
+					"         ",
+					"         ",
+				});
+				Add(4, new string[] {
+					"         ",
+					"         ",
+					"        X",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+					"         ",
+				});
+				break;
+			case 2:
 				SetSize(8, 4, 8);
 				Add(0, new string[] {
 					"  BXXXCX",
